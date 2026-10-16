@@ -58,7 +58,7 @@ h1 em,h2 em { font-family: Georgia,"Times New Roman",serif; font-size: 1.015em; 
 .photo-chip strong,.photo-chip small { display: block; }
 .photo-chip strong { font-size: 14px; }
 .photo-chip small { font-size: 11px; margin-top: 5px; color: var(--muted); }
-.circle-accent { display: grid; place-items: center; position: absolute; width: 90px; height: 90px; top: 14px; right: -26px; color: var(--green); font-size: 40px; background: var(--lime); border: 10px solid var(--paper); border-radius: 50%; transform: rotate(-23deg); }
+.circle-accent { display: grid; place-items: center; position: absolute; width: 90px; height: 90px; top: 14px; right: 8px; color: var(--green); font-size: 40px; background: var(--lime); border: 10px solid var(--paper); border-radius: 50%; transform: rotate(-23deg); }
 .features-band { background: var(--green-dark); color: #f7fbeb; }
 .features-inner { min-height: 87px; display: flex; align-items: center; justify-content: space-around; gap: 18px; font-weight: 650; font-size: 14px; text-align: center; }
 .feature-star { color: #c7dc8e; font-size: 19px; }
@@ -141,7 +141,7 @@ h1 em,h2 em { font-family: Georgia,"Times New Roman",serif; font-size: 1.015em; 
   .hero-description { font-size: 15px; }
   .image-frame { height: 440px; }
   .photo-chip { left: -8px; }
-  .circle-accent { width: 70px; height: 70px; font-size: 30px; right: -13px; }
+  .circle-accent { width: 70px; height: 70px; font-size: 30px; right: 6px; }
   .features-inner { font-size: 12px; gap: 10px; }
   .services-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .extra-layout { gap: 36px; }
@@ -168,7 +168,7 @@ h1 em,h2 em { font-family: Georgia,"Times New Roman",serif; font-size: 1.015em; 
   .image-frame { height: clamp(380px,98vw,480px); }
   .photo-chip { left: -9px; bottom: -25px; padding: 12px 15px; }
   .photo-chip-mark { width: 42px; height: 42px; }
-  .circle-accent { right: -13px; top: 0; }
+  .circle-accent { right: 6px; top: 0; }
   .features-inner { padding-block: 25px; display: flex; flex-wrap: wrap; gap: 9px 13px; justify-content: center; font-size: 12px; }
   .feature-star { font-size: 13px; }
   .section { padding-block: 76px; }
