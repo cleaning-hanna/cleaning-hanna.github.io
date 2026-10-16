@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cleaning-hanna.github.io/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cleaning-hanna.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://cleaning-hanna.github.io/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleaning-hanna.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaning-hanna.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaning-hanna.github.io/"/>
+  </url>
+  <url>
+    <loc>https://cleaning-hanna.github.io/uk/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cleaning-hanna.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://cleaning-hanna.github.io/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleaning-hanna.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaning-hanna.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaning-hanna.github.io/"/>
+  </url>
+  <url>
+    <loc>https://cleaning-hanna.github.io/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cleaning-hanna.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://cleaning-hanna.github.io/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleaning-hanna.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaning-hanna.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaning-hanna.github.io/"/>
+  </url>
+  <url>
+    <loc>https://cleaning-hanna.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cleaning-hanna.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://cleaning-hanna.github.io/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleaning-hanna.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaning-hanna.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaning-hanna.github.io/"/>
+  </url>
+</urlset>
