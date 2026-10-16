@@ -348,9 +348,10 @@ function closeMenu() {
 }
 
 languageSelect.addEventListener("change", (event) => {
-  const lang = event.target.value;
-  translate(lang);
+  const lang = allowedLanguages.has(event.target.value) ? event.target.value : "pl";
   try { window.localStorage.setItem(LANGUAGE_KEY, lang); } catch {}
+  // Explicit language URLs are crawlable and bookmarkable.
+  window.location.assign("/" + lang + "/" + window.location.hash);
 });
 menuToggle.addEventListener("click", () => {
   const open = menuToggle.getAttribute("aria-expanded") !== "true";
@@ -369,5 +370,16 @@ const updateBackToTop = () => backToTop.classList.toggle("visible", window.scrol
 window.addEventListener("scroll", updateBackToTop, {passive:true});
 backToTop.addEventListener("click", () => window.scrollTo({top:0, behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"}));
 document.querySelector("#year").textContent = new Date().getFullYear();
-translate(detectLanguage());
+const pathLanguage = window.location.pathname.match(/^\/(pl|uk|ru|en)\/(?:index\.html)?$/)?.[1];
+if (pathLanguage) {
+  // A direct language link must stay in its own language, regardless of browser settings.
+  translate(pathLanguage);
+} else if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+  // Only the language-neutral entrypoint redirects based on user preference.
+  const language = detectLanguage();
+  translate("pl"); // The root fallback stays Polish if JS navigation is unavailable.
+  window.location.replace("/" + language + "/" + window.location.hash);
+} else {
+  translate("pl");
+}
 updateBackToTop();
